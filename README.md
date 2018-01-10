@@ -1,7 +1,7 @@
 Laravel Keyword Rank
 =======================
 
-A Laravel package for getting keyword position from Google
+A Laravel package for getting keyword position from Google.  This package works with proxy service from seo-proxies dot com at the moment but the plan is to make it work with any proxy services.
 
 Installation
 ------------
@@ -67,7 +67,6 @@ Usage
 2) Get Google keyword position
 
 ```php
-
 	$fetcher = new KeywordRankFetcher(Config::get('keywordrank'));
     $position = $fetcher->getPosition('www.lnidigital.com','Ashburn Digital Marketing',true);
 ```
@@ -88,7 +87,7 @@ Changelog
 
 Roadmap
 -------
-
+- Make the package work with any other proxy services
 
 Credits
 -------
