@@ -24,7 +24,7 @@
         },
         "files": [
             "src/Libs/simple_html_dom.php",
-            "src/Helpers/KeywordRanHelper.php"
+            "src/Helpers/KeywordRankHelper.php"
         ]
     },
     "extra": {
